@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B26B17E1305E0DC00B2790F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B26B17D1305E0DC00B2790F /* Cocoa.framework */; };
+		5B26B1881305E0DC00B2790F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B1861305E0DC00B2790F /* InfoPlist.strings */; };
+		5B26B18B1305E0DC00B2790F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B18A1305E0DC00B2790F /* main.m */; };
+		5B26B18E1305E0DC00B2790F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B18C1305E0DC00B2790F /* Credits.rtf */; };
+		5B26B1911305E0DC00B2790F /* IPAPublisherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1901305E0DC00B2790F /* IPAPublisherAppDelegate.m */; };
+		5B26B1941305E0DC00B2790F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B26B1921305E0DC00B2790F /* MainMenu.xib */; };
+		5B26B1AE1305E2A200B2790F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1A21305E2A200B2790F /* ioapi.c */; };
+		5B26B1AF1305E2A200B2790F /* miniunz.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1A41305E2A200B2790F /* miniunz.c */; };
+		5B26B1B01305E2A200B2790F /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1A51305E2A200B2790F /* mztools.c */; };
+		5B26B1B11305E2A200B2790F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1A71305E2A200B2790F /* unzip.c */; };
+		5B26B1B21305E2A200B2790F /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1AA1305E2A200B2790F /* zip.c */; };
+		5B26B1B31305E2A200B2790F /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B26B1AD1305E2A200B2790F /* ZipArchive.mm */; };
+		5B4DADA113152B6600BC0F3E /* IPAFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DADA013152B6600BC0F3E /* IPAFile.m */; };
+		5B55503D1322628B007E66B2 /* validatereceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B55503C1322628B007E66B2 /* validatereceipt.m */; };
+		5B55503F132262A0007E66B2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B55503E132262A0007E66B2 /* IOKit.framework */; };
+		5B555041132262AA007E66B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B555040132262AA007E66B2 /* Security.framework */; };
+		5B75324C13C5B90D00F52017 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B75324B13C5B90D00F52017 /* libz.1.2.5.dylib */; };
+		5B78AC311315434C00D4CABC /* IPAPublishLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B78AC301315434C00D4CABC /* IPAPublishLocation.m */; };
+		5BBB99D81324D39D007D35DD /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB99D71324D39D007D35DD /* iTunesArtwork.png */; };
+		5BBB99DA1324D494007D35DD /* ipapublisher.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB99D91324D494007D35DD /* ipapublisher.icns */; };
+		5BC924931315A62100441188 /* IPAPublisherDropIPAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC924921315A62100441188 /* IPAPublisherDropIPAView.m */; };
+		5BD03FF81305F04C00DF8B6D /* WebsiteTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 5BD03FF71305F04C00DF8B6D /* WebsiteTemplate.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B26B1791305E0DC00B2790F /* IPA Publisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IPA Publisher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B26B17D1305E0DC00B2790F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5B26B1801305E0DC00B2790F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5B26B1811305E0DC00B2790F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B26B1821305E0DC00B2790F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B26B1851305E0DC00B2790F /* IPAPublisher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPAPublisher-Info.plist"; sourceTree = "<group>"; };
+		5B26B1871305E0DC00B2790F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B26B1891305E0DC00B2790F /* IPAPublisher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPAPublisher-Prefix.pch"; sourceTree = "<group>"; };
+		5B26B18A1305E0DC00B2790F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B26B18D1305E0DC00B2790F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5B26B18F1305E0DC00B2790F /* IPAPublisherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAPublisherAppDelegate.h; sourceTree = "<group>"; };
+		5B26B1901305E0DC00B2790F /* IPAPublisherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAPublisherAppDelegate.m; sourceTree = "<group>"; };
+		5B26B1931305E0DC00B2790F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5B26B1A01305E2A100B2790F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		5B26B1A21305E2A200B2790F /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		5B26B1A31305E2A200B2790F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		5B26B1A41305E2A200B2790F /* miniunz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = miniunz.c; sourceTree = "<group>"; };
+		5B26B1A51305E2A200B2790F /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		5B26B1A61305E2A200B2790F /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		5B26B1A71305E2A200B2790F /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		5B26B1A81305E2A200B2790F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		5B26B1A91305E2A200B2790F /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		5B26B1AA1305E2A200B2790F /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		5B26B1AB1305E2A200B2790F /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		5B26B1AC1305E2A200B2790F /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		5B26B1AD1305E2A200B2790F /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		5B4DAD9F13152B6600BC0F3E /* IPAFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAFile.h; sourceTree = "<group>"; };
+		5B4DADA013152B6600BC0F3E /* IPAFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAFile.m; sourceTree = "<group>"; };
+		5B55503B1322628B007E66B2 /* validatereceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validatereceipt.h; sourceTree = "<group>"; };
+		5B55503C1322628B007E66B2 /* validatereceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = validatereceipt.m; sourceTree = "<group>"; };
+		5B55503E132262A0007E66B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5B555040132262AA007E66B2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5B75324B13C5B90D00F52017 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		5B78AC2F1315434C00D4CABC /* IPAPublishLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAPublishLocation.h; sourceTree = "<group>"; };
+		5B78AC301315434C00D4CABC /* IPAPublishLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAPublishLocation.m; sourceTree = "<group>"; };
+		5BBB99D71324D39D007D35DD /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		5BBB99D91324D494007D35DD /* ipapublisher.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ipapublisher.icns; sourceTree = "<group>"; };
+		5BC924911315A62100441188 /* IPAPublisherDropIPAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAPublisherDropIPAView.h; sourceTree = "<group>"; };
+		5BC924921315A62100441188 /* IPAPublisherDropIPAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAPublisherDropIPAView.m; sourceTree = "<group>"; };
+		5BD03FF71305F04C00DF8B6D /* WebsiteTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebsiteTemplate.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B26B1761305E0DC00B2790F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B75324C13C5B90D00F52017 /* libz.1.2.5.dylib in Frameworks */,
+				5B555041132262AA007E66B2 /* Security.framework in Frameworks */,
+				5B55503F132262A0007E66B2 /* IOKit.framework in Frameworks */,
+				5B26B17E1305E0DC00B2790F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B26B16E1305E0DC00B2790F = {
+			isa = PBXGroup;
+			children = (
+				5B75324B13C5B90D00F52017 /* libz.1.2.5.dylib */,
+				5BBB99D71324D39D007D35DD /* iTunesArtwork.png */,
+				5BBB99D91324D494007D35DD /* ipapublisher.icns */,
+				5B26B1831305E0DC00B2790F /* IPAPublisher */,
+				5B26B17C1305E0DC00B2790F /* Frameworks */,
+				5B26B17A1305E0DC00B2790F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B26B17A1305E0DC00B2790F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B26B1791305E0DC00B2790F /* IPA Publisher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B26B17C1305E0DC00B2790F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B555040132262AA007E66B2 /* Security.framework */,
+				5B55503E132262A0007E66B2 /* IOKit.framework */,
+				5B26B17D1305E0DC00B2790F /* Cocoa.framework */,
+				5B26B17F1305E0DC00B2790F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B26B17F1305E0DC00B2790F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B26B1801305E0DC00B2790F /* AppKit.framework */,
+				5B26B1811305E0DC00B2790F /* CoreData.framework */,
+				5B26B1821305E0DC00B2790F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5B26B1831305E0DC00B2790F /* IPAPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				5B26B1A01305E2A100B2790F /* crypt.h */,
+				5B26B1A11305E2A200B2790F /* minizip */,
+				5B26B1AC1305E2A200B2790F /* ZipArchive.h */,
+				5B26B1AD1305E2A200B2790F /* ZipArchive.mm */,
+				5B26B18F1305E0DC00B2790F /* IPAPublisherAppDelegate.h */,
+				5B26B1901305E0DC00B2790F /* IPAPublisherAppDelegate.m */,
+				5B26B1921305E0DC00B2790F /* MainMenu.xib */,
+				5BD03FF71305F04C00DF8B6D /* WebsiteTemplate.html */,
+				5B26B1841305E0DC00B2790F /* Supporting Files */,
+				5B4DAD9F13152B6600BC0F3E /* IPAFile.h */,
+				5B4DADA013152B6600BC0F3E /* IPAFile.m */,
+				5B78AC2F1315434C00D4CABC /* IPAPublishLocation.h */,
+				5B78AC301315434C00D4CABC /* IPAPublishLocation.m */,
+				5BC924911315A62100441188 /* IPAPublisherDropIPAView.h */,
+				5BC924921315A62100441188 /* IPAPublisherDropIPAView.m */,
+				5B55503B1322628B007E66B2 /* validatereceipt.h */,
+				5B55503C1322628B007E66B2 /* validatereceipt.m */,
+			);
+			path = IPAPublisher;
+			sourceTree = "<group>";
+		};
+		5B26B1841305E0DC00B2790F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B26B1851305E0DC00B2790F /* IPAPublisher-Info.plist */,
+				5B26B1861305E0DC00B2790F /* InfoPlist.strings */,
+				5B26B1891305E0DC00B2790F /* IPAPublisher-Prefix.pch */,
+				5B26B18A1305E0DC00B2790F /* main.m */,
+				5B26B18C1305E0DC00B2790F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B26B1A11305E2A200B2790F /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				5B26B1A21305E2A200B2790F /* ioapi.c */,
+				5B26B1A31305E2A200B2790F /* ioapi.h */,
+				5B26B1A41305E2A200B2790F /* miniunz.c */,
+				5B26B1A51305E2A200B2790F /* mztools.c */,
+				5B26B1A61305E2A200B2790F /* mztools.h */,
+				5B26B1A71305E2A200B2790F /* unzip.c */,
+				5B26B1A81305E2A200B2790F /* unzip.h */,
+				5B26B1A91305E2A200B2790F /* zconf.h */,
+				5B26B1AA1305E2A200B2790F /* zip.c */,
+				5B26B1AB1305E2A200B2790F /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B26B1781305E0DC00B2790F /* IPAPublisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B26B1971305E0DC00B2790F /* Build configuration list for PBXNativeTarget "IPAPublisher" */;
+			buildPhases = (
+				5B26B1751305E0DC00B2790F /* Sources */,
+				5B26B1761305E0DC00B2790F /* Frameworks */,
+				5B26B1771305E0DC00B2790F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPAPublisher;
+			productName = IPAPublisher;
+			productReference = 5B26B1791305E0DC00B2790F /* IPA Publisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B26B1701305E0DC00B2790F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5B26B1731305E0DC00B2790F /* Build configuration list for PBXProject "IPAPublisher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B26B16E1305E0DC00B2790F;
+			productRefGroup = 5B26B17A1305E0DC00B2790F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B26B1781305E0DC00B2790F /* IPAPublisher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B26B1771305E0DC00B2790F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B26B1881305E0DC00B2790F /* InfoPlist.strings in Resources */,
+				5B26B18E1305E0DC00B2790F /* Credits.rtf in Resources */,
+				5B26B1941305E0DC00B2790F /* MainMenu.xib in Resources */,
+				5BD03FF81305F04C00DF8B6D /* WebsiteTemplate.html in Resources */,
+				5BBB99D81324D39D007D35DD /* iTunesArtwork.png in Resources */,
+				5BBB99DA1324D494007D35DD /* ipapublisher.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B26B1751305E0DC00B2790F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B26B18B1305E0DC00B2790F /* main.m in Sources */,
+				5B26B1911305E0DC00B2790F /* IPAPublisherAppDelegate.m in Sources */,
+				5B26B1AE1305E2A200B2790F /* ioapi.c in Sources */,
+				5B26B1AF1305E2A200B2790F /* miniunz.c in Sources */,
+				5B26B1B01305E2A200B2790F /* mztools.c in Sources */,
+				5B26B1B11305E2A200B2790F /* unzip.c in Sources */,
+				5B26B1B21305E2A200B2790F /* zip.c in Sources */,
+				5B26B1B31305E2A200B2790F /* ZipArchive.mm in Sources */,
+				5B4DADA113152B6600BC0F3E /* IPAFile.m in Sources */,
+				5B78AC311315434C00D4CABC /* IPAPublishLocation.m in Sources */,
+				5BC924931315A62100441188 /* IPAPublisherDropIPAView.m in Sources */,
+				5B55503D1322628B007E66B2 /* validatereceipt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B26B1861305E0DC00B2790F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B26B1871305E0DC00B2790F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B26B18C1305E0DC00B2790F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B26B18D1305E0DC00B2790F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5B26B1921305E0DC00B2790F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B26B1931305E0DC00B2790F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B26B1951305E0DC00B2790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					USE_SAMPLE_RECEIPT,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B26B1961305E0DC00B2790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B26B1981305E0DC00B2790F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPAPublisher/IPAPublisher-Prefix.pch";
+				INFOPLIST_FILE = "IPAPublisher/IPAPublisher-Info.plist";
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = "IPA Publisher";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B26B1991305E0DC00B2790F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Martin Reichart";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPAPublisher/IPAPublisher-Prefix.pch";
+				INFOPLIST_FILE = "IPAPublisher/IPAPublisher-Info.plist";
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = "IPA Publisher";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B26B1731305E0DC00B2790F /* Build configuration list for PBXProject "IPAPublisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B26B1951305E0DC00B2790F /* Debug */,
+				5B26B1961305E0DC00B2790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B26B1971305E0DC00B2790F /* Build configuration list for PBXNativeTarget "IPAPublisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B26B1981305E0DC00B2790F /* Debug */,
+				5B26B1991305E0DC00B2790F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B26B1701305E0DC00B2790F /* Project object */;
+}
